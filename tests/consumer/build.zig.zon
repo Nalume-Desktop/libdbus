@@ -1,0 +1,8 @@
+.{
+    .name = .libdbus_consumer,
+    .fingerprint = 0xb9de88e188e632b,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{ .libdbus = .{ .path = "../.." } },
+    .paths = .{ "build.zig", "build.zig.zon", "main.zig" },
+}
